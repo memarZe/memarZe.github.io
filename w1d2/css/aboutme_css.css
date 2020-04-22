@@ -1,13 +1,13 @@
 .header {
     height: 170px;
     width:100%;
-    background-image: url('../images/header_bg.jpg');
+    background-color: darkslategray;
 }
 .logo_image{
     margin-top: 40px;
     margin-left: 50px;
     height: 200px;
-    width: 200px;
+    width: 500px;
     vertical-align: middle;
     border-radius: 50%;
 }
