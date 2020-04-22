@@ -3,13 +3,9 @@
     width:100%;
     background-color: darkslategray;
 }
-.logo_image{
-    margin-top: 40px;
-    margin-left: 50px;
-    height: 200px;
-    width: 500px;
-    vertical-align: middle;
-    border-radius: 50%;
+.inner_header{
+    position: absolute;
+    
 }
 .header h1{
     color: white;
@@ -58,9 +54,7 @@ a:hover {
 .aboutme{
     margin-left: 20px;
 }
-.aboutme image{
-    padding: 30px;
-}
+
 .aboutme h2{
     color: darkslategray;
 }
