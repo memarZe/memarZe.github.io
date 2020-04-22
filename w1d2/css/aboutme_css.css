@@ -2,10 +2,12 @@
     height: 170px;
     width:100%;
     background-color: darkslategray;
+
 }
 .inner_header{
-    position: absolute;
     margin-left: 20px;
+    padding: 40px 0px 0px 0px;
+    width: 700px;
 }
 .header h1{
     color: white;
@@ -54,6 +56,8 @@ a:hover {
 .aboutme{
     margin-left: 20px;
     font-size: 13px;
+    position: relative;
+
 }
 
 .aboutme h2{
@@ -78,6 +82,9 @@ li{
 .horizontal_menu {
     overflow: hidden;
     background-color: #333;
+    width: 100%;
+    position: fixed;
+    position: absolute;
 }
 
 .horizontal_menu a {

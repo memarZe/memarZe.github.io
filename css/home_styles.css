@@ -45,6 +45,7 @@ text-decoration: none;
     width:100%;
     text-align:center;
     background-color: darkgrey;
+    border-top: 1px solid darkgrey;
 }
 .assigment_list{
    margin-top: 160px;
