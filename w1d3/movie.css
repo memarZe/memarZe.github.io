@@ -4,6 +4,7 @@
 #banner_image{
     background-image: url('bannerbg.png');
     text-align: center;
+
 }
 h1{
     text-align: center;
@@ -15,28 +16,31 @@ h1{
     border:gray 3px solid;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 900px;
     border-radius: 20px;
 
 
 }
-.overview_image{
+#movie_profile{
     float: right;
+    border-top-right-radius: 50px;
+    padding: 0px;
+    background-color: #AFDC7E;
+}
+
+#overview_image{
     border-top-right-radius: 20px;
-    vertical-align: middle;
-    top: 0;
+    padding: 0px;
 
 }
 .overview_image img{
     border-top-right-radius: 20px;
 }
-dl{
-    vertical-align: bottom;
-    float: right;
+#movie_detail{
     width: 250px;
-    background-color: #4CAF50;
-    bottom: 0;
+    padding: 10px;
 }
+
 .total_rating{
     background-image: url('rbg.png');
     border-top-left-radius: 15px;
@@ -52,6 +56,8 @@ p{
     padding: 10px;
     border-radius: 10px 10px 10px 10px;
     background-color: khaki;
+    width: 275px;
+    margin: 10px;
 }
 .validator{
     float: right;
