@@ -1,7 +1,7 @@
 .header {
     height: 170px;
     width:100%;
-    background-image: url('../images/header_bg.jpg');
+    background-image: url('../images/header_bg.jpg') ;
 }
 .logo_image{
     margin-top: 40px;
