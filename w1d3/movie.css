@@ -68,11 +68,17 @@ font{
     font-family: sans-serif;
     color: red;
     font-weight: bold;
-
+    font-size: 100%;
 }
 #review_page{
     float: left;
-    width: 620px;
+    width: 645px;
+
+}
+#review_page > div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 12px;
 }
 .break{
     clear: right;
@@ -83,24 +89,12 @@ font{
     margin: 10px;
     border-radius: 10px;
     border: 2px solid gray;
-    width: 285px;
+    width: 295px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 
 }
 
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-}
-
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 .footer{
     width: 900px;
     background-color: #AFDC7E;
@@ -109,4 +103,12 @@ font{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     text-align: center;
+}
+.reviews_column1{
+    float: left;
+
+}
+.reviews_column2{
+    float: left;
+
 }
