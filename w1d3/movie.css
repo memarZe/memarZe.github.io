@@ -17,28 +17,36 @@ h1{
     margin-left: auto;
     margin-right: auto;
     width: 900px;
+    height: 1000px;
     border-radius: 20px;
+    position: relative;
 
 
 }
 #movie_profile{
     float: right;
-    border-top-right-radius: 50px;
     padding: 0px;
     background-color: #AFDC7E;
+
 }
 
 #overview_image{
-    border-top-right-radius: 20px;
+
     padding: 0px;
+    float: right;
+    border-radius: 50px;
 
 }
 .overview_image img{
     border-top-right-radius: 20px;
 }
 #movie_detail{
-    width: 250px;
-    padding: 10px;
+    width: 240px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 980px;
+    border-bottom-right-radius: 20px;
 }
 
 .total_rating{
@@ -51,14 +59,7 @@ h1{
     border-top-left-radius: 50px;
 
 }
-p{
-    border:gray 2px solid;
-    padding: 10px;
-    border-radius: 10px 10px 10px 10px;
-    background-color: khaki;
-    width: 275px;
-    margin: 10px;
-}
+
 .validator{
     float: right;
 }
@@ -68,4 +69,44 @@ font{
     color: red;
     font-weight: bold;
 
+}
+#review_page{
+    float: left;
+    width: 620px;
+}
+.break{
+    clear: right;
+}
+.reviews{
+
+    background-color: khaki;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    width: 285px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    width: 900px;
+    background-color: #AFDC7E;
+    bottom: 0;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
 }
