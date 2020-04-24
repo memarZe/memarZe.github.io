@@ -1,3 +1,10 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+}
+
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -17,17 +24,7 @@ h1{
     clear: both;
 }
 
-@media screen and (max-width: 900px) {
-    .column  {
-        width: 50%;
-    }
-}
 
-@media screen and (max-width: 600px) {
-    .column  {
-        width: 100%;
-    }
-}
 
 .header{
     background-color: dodgerblue;
