@@ -71,4 +71,7 @@ h1{
 .column{
     height: 200px;
 }
+.validator{
+    float: right;
+}
 
