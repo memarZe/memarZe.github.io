@@ -2,9 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="login.css">
+    <title>Responsiv Site</title>
 </head>
 <body>
+<div class="horizontal_menu">
+    <a class="active" href="../index.html">Home</a>
+    <a href="#Blog">Blog</a>
+    <a href="#contact">Contact</a>
+    <a href="../w1d2/aboutme.html">About me</a>
+    <div class="login">
+        <a href="login.html">Login</a>
+    </div>
+</div>
+<div class="header">
+    <h1>Login Page</h1>
+</div>
+<div id="main_container">
 
+            <div class="flex-container">
+                <div class="column">
+                        <form action="#">
+                            <br><label for="email">Email Address:</label><br>
+                            <input type="text" id="email" name="email" placeholder="Enter Email"><br>
+                            <p>We will never share your email</p>
+                            <label for="password"> Password:</label><br>
+                            <input type="password" id="password" name="password" placeholder="Enter Password"
+                                   pattern="(?=^.{10,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                                   title=" The Password need to have at least 10 characters and should contain at
+                                   least one number and one uppercase and lowercase letter"><br><br>
+                            <input class="checkbox" type="checkbox" name="robot" value="robot"> Check me out
+
+                            <br><br>
+                            <input class="submit" type="submit" value="Submit">
+                        </form>
+                 </div>
+            </div>
+
+</div>
+<div class="validator">
+    <a href="https://validator.w3.org/check/referer"><img src="w3c-html.png" alt="Valid HTML5" /></a> <br />
+    <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="w3c-css.png" alt="Valid CSS" /></a>
+</div>
 </body>
 </html>

@@ -84,3 +84,13 @@ text-decoration: none;
     background-color: #4CAF50;
     color: white;
 }
+
+.login{
+    float: right;
+    margin: 5px;
+    height: 30px;
+}
+
+.login a{
+    color: white;
+}
