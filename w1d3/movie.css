@@ -63,13 +63,7 @@ h1{
 .validator{
     float: right;
 }
-font{
-    font-max-size: infinity;
-    font-family: sans-serif;
-    color: red;
-    font-weight: bold;
-    font-size: 100%;
-}
+
 #review_page{
     float: left;
     width: 645px;
@@ -89,7 +83,7 @@ font{
     margin: 10px;
     border-radius: 10px;
     border: 2px solid gray;
-    width: 285px;
+    width: 290px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: bold;
