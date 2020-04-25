@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+#main_container{
+    width: 90%;
+    alignment: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+.flex-container p{
+    font-size: 13pt;
+    color: dimgray;
+}
+
+
+
+.header{
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.validator{
+    float: right;
+}
+
+.horizontal_menu {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.horizontal_menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.horizontal_menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.horizontal_menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.sign_out a{
+    color: black;
+    width: 10px;
+    height: 50px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: none;
+}
+
+.sign_out a:hover{
+    color: white;
+    background-color: #4CAF50;
+}
+.dome_market_menu {
+    overflow: hidden;
+    margin: 10px;
+}
+
+.dome_market_menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 1px solid white;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.dome_market_menu a:hover {
+    color: black;
+}
+
+.dome_market_menu a.active {
+    color: white;
+}
+.dome_market_logo{
+    margin: 10px;
+    float: left;
+    font-family: Helvetica;
+    font-size: 5pt;
+    color: white;
+}
