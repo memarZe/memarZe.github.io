@@ -12,31 +12,21 @@
     <a href="#Blog">Blog</a>
     <a href="#contact">Contact</a>
     <a href="../w1d2/aboutme.html">About us</a>
-
 </div>
 <div class="header">
-    <div style="width: 100%;">
-        <div class="container">
+    <div class="golden_dome_logo">
+        <p>MUM Golden Dome Market : : : SRM System</p>
+    </div>
 
-            <div class="row">
-                <div class="col-sm-4">
-                    <h4>Golden Dome Market ::: SRM SYstem</h4>
+    <div class="product_link">
+        <a href="#product">Products</a>
+    </div>
+    <div class="supplierlink">
+        <a href="#suppliers">Suppliers</a>
+    </div>
 
-                </div>
-                <div class="col-sm-4">
-                    <div class="dome_market_menu_menu">
-                        <a class="active" href="../index.html">Home</a>
-                        <a href="#Blog">Blog</a>
-
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="login">
-                        <a href="login.html">Login</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="signout">
+      Hello!  <a href="login.html">Sign out</a>
     </div>
 </div>
 <div id="main_container">
@@ -45,25 +35,32 @@
         <div class="row">
             <div class="col-sm-6">
                 <form>
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="John"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe">
+                    <label for="productnumber">Product Number:</label><br>
+                    <input type="text" id="ProductNumber" name="Product_Number"><br>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="unitprice">Unit Price:</label><br>
+                    <input type="text" id="unitprice" name="unitprice" placeholder="0.0">
 
             </div>
             <div class="col-sm-6">
 
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="John"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe"><br>
-                <input type="submit" value="Submit">
-                <input type="submit" value="Submit">
-                <input type="submit" value="Submit">
+                    <label for="quantityinstock">Quantity in Stock:</label><br>
+                    <input type="text" id="quantityinstock" name="quantityinstock" placeholder="0"><br>
+                    <label for="supplier">Supplier:</label><br>
+                    <select id="supplier">
+                        <option value="">Select your option</option>
+                        <option value="Walmart">Volvo</option>
+                        <option value="Haivee">Saab</option>
+                        <option value="Rose">Mercedes</option>
+                        <option value="Wal">Audi</option>
+                    </select> <br>
+                    <label for="datesupplied">Date Supplied:</label><br>
+                    <input type="date" id="datesupplied" name="datesupplied"><br>
+                    Enter Valid Date <br><br>
+                <button type="reset" value="Submit">Reset</button>
+                <button type="submit" value="Reset">Cancel</button>
+                <button type="submit" value="Reset">Add Product</button>
                 </form>
             </div>
         </div>
