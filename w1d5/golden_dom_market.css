@@ -9,6 +9,14 @@
     margin-right: auto;
     border-radius: 10px;
 }
+.container{
+    margin: 10px;
+ margin: 25px;
+}
+.container b{
+    font-size: 20px;
+    font-family: Helvetica;
+}
 .flex-container {
     display: flex;
     flex-wrap: wrap;
