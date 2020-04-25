@@ -157,7 +157,7 @@ input:focus{
 }
 
 @media screen and (max-width:800px) {
-    .left, .main, .right {
+    .golden_dome_logo, .product_link, .supplierlink, .signout{
         width:100%;
     }
 }
