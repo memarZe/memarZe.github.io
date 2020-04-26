@@ -147,7 +147,7 @@ input:focus{
 .signout a{
     background-color: lightgray;
     padding: 15px;
-    color: black;
+    color: white;
     font-size: 14px;
     border-radius: 5px;
 }
