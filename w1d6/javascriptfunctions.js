@@ -13,7 +13,7 @@ function maxOfTwo(num1, num2) {
     }
 }
 
-console.log("Expected output of max(45,43) is 45  " + maxOfTwo(45, 43));
+console.log("The Expected output of max(45,43) is 45  " + maxOfTwo(45, 43));
 
 /* a function that takes three numbers as arguments and returns the largest of them
 * 1 if one of the  numbers is greater  it will return the greater number
@@ -31,7 +31,7 @@ function maxOfThree(num1, num2, num3) {
     }
 }
 
-console.log("Expected output of max(45,43, 42) is 45  " + maxOfThree(45, 43, 42));
+console.log("The Expected output of max(45,43, 42) is 45  " + maxOfThree(45, 43, 42));
 
 /* a function that takes a character and returns true if it is a vowel, false otherwise.*/
 
@@ -45,7 +45,9 @@ function isVowel(char) {
     return false
 }
 
-console.log("Is the letter entered vowel? : " + isVowel('A'));
+console.log("The Expected output of a is true? : " + isVowel('a'));
+
+/* A function sum() to sum two numbers and return the result. t*/
 
 function sum(arr){
     let sum = 0;
@@ -64,8 +66,87 @@ function multiply(arr){
     return multiply
 }
 
-let list = [1, 1, 1, 10];
-console.log("The sum of the list of numbers : " + sum(list));
-console.log("The product of the list of the numbers is: " + multiply(list))
+let numList = [5, 10, 15, 20];
+console.log("The Expected output of [5, 10, 15, 20] is 50?: " + sum(numList));
+console.log("The Expected output of [5, 10, 15, 20] is 15000?: " + multiply(numList))
 
 
+function reverse(str) {
+ let reversedStr = "";
+ for (let i=str.length-1; i>=0; i--){
+     reversedStr = reversedStr + str.charAt(i);
+ }
+ return reversedStr;
+}
+
+console.log("The Expected output of 'Memar Zelealem' is 'melaelez ramem': " + reverse("Memar Zelealem"));
+
+/*A function that takes an array of words and returns the length of the longest one.*/
+
+function findLongestWord(string) {
+    let str = string.split(" ");
+    let longest = 0;
+    let longestWord = null;
+    for (let i = 0; i < str.length - 1; i++) {
+        if (longest < str[i].length) {
+            longest = str[i].length;
+            longestWord = str[i];
+        }
+    }
+    return longestWord;
+}
+
+console.log("The Expected output of 'Memar Zelealem Geremew' is 'Zelealem': " + findLongestWord("Memar Zelealem Geremew"));
+
+/*A function that takes an array of words and an integer x and returns the array of words that are longer than x */
+function  filterLongWords(arr, j) {
+    let filteredWords = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].length > j) {
+            filteredWords.push(arr[i]);
+        }
+    }
+    return filteredWords;
+}
+
+let listOfWords = ["JavaScript", "misunderstood", "language"];
+console.log("The expected output of " +
+    "'JavaScript', 'misunderstood', 'language' " +
+    "and 8 is 'JavaScript', 'language': " + filterLongWords(listOfWords, 5));
+
+/*A function that take an array and and returns the array by multi0lying each element by 10*/
+function multiplyEachElement(arr){
+   let multipliesArr = arr.map(myFunction);
+
+    function myFunction(num) {
+        return num * 10;
+    }
+
+    return multipliesArr
+}
+let num = [0, 5, 10, 1];
+console.log("The expected output of [0, 5, 10, 1] is [0, 50, 100, 10]: " + multiplyEachElement(num));
+
+/*A function that take an array and filters the elements of the array which is equal to 3*/
+function f(arr) {
+
+    let lucky = arr.filter(function(number) {
+        return number === 3;
+    });
+    return lucky
+}
+
+let l = [3, 5, 10, 3];
+console.log("The expected output of [3, 5, 10, 3] is [3, 3] : " + f(l));
+
+/*A function that take an array of numbers and returns the product of all elements.*/
+function product(arr) {
+    let product = 1;
+    for (let i=0; i<arr.length; i++) {
+        product = product * arr[i];
+    }
+    return product
+}
+
+let y = [3, 5, 10, 3];
+console.log("The expected output of [3, 5, 10, 3] is 450: " + product(y));
