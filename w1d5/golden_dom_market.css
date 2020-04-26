@@ -147,12 +147,13 @@ input:focus{
 .signout a{
     background-color: lightgray;
     padding: 15px;
-    color: white;
+    color: black;
     font-size: 14px;
     border-radius: 5px;
 }
 .signout a:hover{
     background-color: #4CAF50;
+    color: white;
 
 }
 
