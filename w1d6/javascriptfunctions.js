@@ -116,24 +116,23 @@ console.log("The expected output of " +
 
 /*A function that take an array and and returns the array by multi0lying each element by 10*/
 function multiplyEachElement(arr){
-   let multipliesArr = arr.map(myFunction);
+   let multipliedArr = arr.map(function(elem, i, array) {
+        return elem * 10;
+    })
 
-    function myFunction(num) {
-        return num * 10;
-    }
-
-    return multipliesArr
+    return multipliedArr
 }
+
+
 let num = [0, 5, 10, 1];
 console.log("The expected output of [0, 5, 10, 1] is [0, 50, 100, 10]: " + multiplyEachElement(num));
 
 /*A function that take an array and filters the elements of the array which is equal to 3*/
 function f(arr) {
 
-    let lucky = arr.filter(function(number) {
-        return number === 3;
-    });
-    return lucky
+    let filtered = arr.filter(function(elem, i, array){
+        return elem === 3;});
+    return filtered
 }
 
 let l = [3, 5, 10, 3];
