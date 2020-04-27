@@ -1,4 +1,3 @@
-
 /* a function that takes two numbers as arguments and returns the largest of them
 * 1 if one of both greater  it will return the greater number
 * 2. if both are equal it will return "They are equal"
@@ -72,11 +71,11 @@ console.log("The Expected output of [5, 10, 15, 20] is 15000?: " + multiply(numL
 
 
 function reverse(str) {
- let reversedStr = "";
- for (let i=str.length-1; i>=0; i--){
-     reversedStr = reversedStr + str.charAt(i);
- }
- return reversedStr;
+    let reversedStr = "";
+    for (let i=str.length-1; i>=0; i--){
+        reversedStr = reversedStr + str.charAt(i);
+    }
+    return reversedStr;
 }
 
 console.log("The Expected output of 'Memar Zelealem' is 'melaelez ramem': " + reverse("Memar Zelealem"));
@@ -116,23 +115,24 @@ console.log("The expected output of " +
 
 /*A function that take an array and and returns the array by multi0lying each element by 10*/
 function multiplyEachElement(arr){
-   let multipliedArr = arr.map(function(elem, i, array) {
-        return elem * 10;
-    })
+    let multipliesArr = arr.map(myFunction);
 
-    return multipliedArr
+    function myFunction(num) {
+        return num * 10;
+    }
+
+    return multipliesArr
 }
-
-
 let num = [0, 5, 10, 1];
 console.log("The expected output of [0, 5, 10, 1] is [0, 50, 100, 10]: " + multiplyEachElement(num));
 
 /*A function that take an array and filters the elements of the array which is equal to 3*/
 function f(arr) {
 
-    let filtered = arr.filter(function(elem, i, array){
-        return elem === 3;});
-    return filtered
+    let lucky = arr.filter(function(number) {
+        return number === 3;
+    });
+    return lucky
 }
 
 let l = [3, 5, 10, 3];

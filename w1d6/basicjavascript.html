@@ -6,6 +6,14 @@
         <link type="text/css" rel="stylesheet" href="basicjavascript.css">
         <script src="javascriptfunctions.js"></script>
         <title>JavaScript Introduction Assignments</title>
+
+        <script>window.onload = function(){
+            if (null) {
+                alert('null');
+            } else {
+                alert('undefined?');
+            }
+        }</script>
     </head>
 <body>
 <div class="navbar">
@@ -115,7 +123,7 @@
                 }
             </script>
 
-            6. <input type="text" id="reverse" placeholder="" >
+            6. <input type="text" id="reverse" placeholder="Enter the String" >
             <button type="submit" name="checkProduct" onclick="myFunction6()">Reverse</button>
             <input type="text" id="reverseResult" placeholder="" style="border: none; color: green" ><br/><br/>
 
@@ -129,16 +137,16 @@
             <input type="text" id="word2" placeholder="" style="width: 120px">
             <input type="text" id="word3" placeholder="" style="width: 120px">
             <input type="text" id="word4" placeholder="" style="width: 120px">
-            <button type="submit" name="findlongest" onclick="myFunction5()">Longest Word</button>
+            <button type="submit" name="findlongest" onclick="myFunction6()">Longest Word</button>
             <input type="text" id="longResult" placeholder="" style="border: none; color: green" ><br/><br/>
 
             <script>
-                function myFunction5() {
+                function myFunction6() {
                     let arr2 = [];
-                    arr2[0] = parseInt(document.getElementById("word1").value);
-                    arr2[1] = parseInt(document.getElementById("word2").value);
-                    arr2[2] = parseInt(document.getElementById("word3").value);
-                    arr2[3] = parseInt(document.getElementById("word4").value);
+                    arr2[0] = document.getElementById("word1").value;
+                    arr2[1] = document.getElementById("word2").value;
+                    arr2[2] = document.getElementById("word3").value;
+                    arr2[3] = document.getElementById("word4").value;
                     document.getElementById("longResult").value = findLongestWord(arr2);
                 }
             </script>
