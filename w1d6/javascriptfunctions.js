@@ -13,7 +13,7 @@ function maxOfTwo(num1, num2) {
     }
 }
 
-console.log("The Expected output of max(45,43) is 45  " + maxOfTwo(45, 43));
+console.log("The Expected output of max(45,43) is 45  " + maxOfTwo(45, 45));
 
 /* a function that takes three numbers as arguments and returns the largest of them
 * 1 if one of the  numbers is greater  it will return the greater number
