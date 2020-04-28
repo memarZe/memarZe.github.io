@@ -127,3 +127,27 @@ button{
 button:hover{
     background-color: #2196F3;
 }
+
+
+.footer {
+    border-top: green;
+    width:100%;
+    margin-top: 20px;
+    text-align:center;
+    background-color: darkgrey;
+    border-top: 1px solid darkgrey;
+}
+.assigment_list{
+    margin-top: 160px;
+}
+.address {
+    float:left;
+    text-align:left;
+    font-size: 12px;
+
+}
+
+.validator {
+    float:right;
+
+}
