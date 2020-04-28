@@ -1,12 +1,13 @@
 window.onload=function () {
 
     document.getElementById("btn").onclick = decorationBtnClicked;
+    document.getElementById("btn").onclick = increaseTextSizeEachTimeButtonClicked;
     document.getElementById("bling").onchange = blindInputChanged;
 
-    function myFunction() {
-        alert("Hello, world!");
-    }
+    function increaseTextSizeEachTimeButtonClicked() {
+        setInterval(decorationBtnClicked, 500);
 
+    }
 
     function decorationBtnClicked() {
 
@@ -26,6 +27,7 @@ window.onload=function () {
             text.style.fontWeight = "";
             text.style.color = "";
             text.style.textDecoration = ""
+            document.body.style.backgroundImage = "";
         }
     }
 }
