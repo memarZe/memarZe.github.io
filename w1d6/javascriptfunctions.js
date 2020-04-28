@@ -1,3 +1,4 @@
+
 /* a function that takes two numbers as arguments and returns the largest of them
 * 1 if one of both greater  it will return the greater number
 * 2. if both are equal it will return "They are equal"
