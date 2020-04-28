@@ -1,5 +1,4 @@
 /*jshint esversion: 6 */
-
 window.onload=function () {
     "use strict";
     document.getElementById("btn").onclick = decorationBtnClicked;

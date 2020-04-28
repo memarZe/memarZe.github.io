@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="ascii.css">
+    <script src="animations.js"></script>
+    <script src="ascii.js"></script>
+    <title>ASCIImation</title>
+
+</head>
+<body>
+<div class="navbar">
+    <a href="../index.html">Home</a>
+    <a href="../w1d2/aboutme.html">About me</a>
+    <div class="dropdown">
+        <button class="dropbtn">Assignmnets
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href ="../index.html">Lab01 - Homepage</a>
+            <a href ="../w1d2/aboutme.html">Lab02 - About Me</a>
+            <a href ="../w1d3/movie.html">Lab03 - Movie Review</a>
+            <a href ="../w1d4/responsiv.html">Lab04 - Responsive Page Using flexbox</a>
+            <a href ="../w1d4/responsiv_bootstrap.html">Lab04 - Responsive Page Using Bootstrap</a>
+            <a href ="../w1d5/login.html">Lab05 - login Page</a>
+            <a href ="../w1d5/golden_dom_market.html">Lab05 - Golden Dome Market SRM System</a>
+            <a href ="../w1d6/basicjavascript.html">Lab06 - Basic Javascript Assignment</a>
+            <a href ="../w2d1/w2d1Decorate.html">Lab07 - Array Methods</a>
+            <a href ="../JavaScriptPractice/TextDecorator.html">Lab07 - Decoration</a>
+            <a href ="../w2d2/ascii.css">Lab08 - Animations</a>
+        </div>
+    </div>
+    <div class="login">
+        <a href="../w1d5/login.html">Login</a>
+    </div>
+</div>
+<div class="header">
+    <h1>CSE 190 M ASCII Animation Viewer : W2D2</h1>
+</div>
+<div id="main_container">
+
+    <div class="flex-container">
+        <div class="column">
+            <div class="container">
+                <textarea id="text-area" cols="80" rows="20"></textarea>
+                <fieldset>
+                    <legend>Play Controls:</legend>
+                    <button id="start">Start</button>
+                    <button disabled="disabled" id="stop">Stop</button>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Animation:</legend>
+                    <select id="animation">
+                        <option selected="selected" value="Blank">Blank</option>
+                        <option value="Exercise">Exercise</option>
+                        <option value="Juggler">Juggler</option>
+                        <option value="Bike">Bike</option>
+                        <option value="Dive">Dive</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Size:</legend>
+                    <select id="fontsize">
+                        <option value="Tiny">Tiny</option>
+                        <option value="Small">Small</option>
+                        <option value="Medium" selected="selected">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="Extra Large">Extra Large</option>
+                        <option value="XXL">XXL</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Speed:</legend>
+                    <label><input id="turbo" type="checkbox">Turbo</label>
+                </fieldset>
+            </div>
+            <div id="validate">
+                <a href="http://validator.w3.org/check/referer">
+                    <img src="w3c-html.png" alt="html validator">
+                </a><br>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img src="w3c-css.png" alt="Valid CSS!"></a><br>
+                <a href="http://webster.cs.washington.edu/jslint?referer">
+                    <img src="jslint.png" alt="JavaScript Lint">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="validator">
+    <a href="https://validator.w3.org/check/referer"><img src="w3c-html.png" alt="Valid HTML5" /></a> <br />
+    <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="w3c-css.png" alt="Valid CSS" /></a>
+</div>
+</body>
+</html>
