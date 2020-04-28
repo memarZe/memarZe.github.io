@@ -1,6 +1,7 @@
 window.onload=function () {
     "use strict";
 
+
     /*A function the takes an array and sums all the numbers in an array of numbers*/
     function sum(arr) {
         let sumElements = arr.reduce((totalSum, current) => {
