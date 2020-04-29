@@ -13,6 +13,7 @@ window.onload = function () {
     document.getElementById("fontsize").onchange = fontSizeChanged;
     document.getElementById("turbo").onchange = turboChanged;
 
+    /*A fnction to change speed of the animation, when the turbo button status is changed*/
     function turboChanged() {
         if(document.getElementById("turbo").checked){
             speed = 50;
@@ -21,12 +22,13 @@ window.onload = function () {
         }
     }
 
+    /*A function to select change the animation type between juggler, exercise and bysicle etc is selected */
     function animationTypeChanged() {
         animation = document.getElementById("animation").value;
         pos = 0;
         animationArray = ANIMATIONS[animation].split("=====\n");
     }
-
+/*A function to start and stop the animation when start and stop button is clicekd repsectively */
     function startOrStopBtnCLicked() {
         isStarted = !isStarted;
         pos = 0;
@@ -38,7 +40,7 @@ window.onload = function () {
             run();
         }
     }
-
+/*a function which runs teh animation after the start button is clicked*/
     function run() {
         document.getElementById("text-area").value = animationArray[pos%animationArray.length];
         pos++;
@@ -46,6 +48,7 @@ window.onload = function () {
             setTimeout(run,  speed);
         }
     }
+    /*A function to change the size of animation text when font size is selected*/
 function fontSizeChanged() {
 
         let fontSize = "12pt";
