@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 window.onload=function () {
     "use strict";
 
@@ -35,10 +36,10 @@ window.onload=function () {
     function filterLongWord(arrOfWords, i) {
         let newArray = arrOfWords.filter((currentElement) => {
             return currentElement.length > i;
-        })
+        });
         return newArray;
     }
 
     let arrayOfWords = ["Memar", "Zelealem", "Desta", "Geremew"];
     console.log("The Expected output of " + arrayOfWords + " is 600: " + filterLongWord(arrayOfWords, 5));
-}
+};
