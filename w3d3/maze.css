@@ -6,6 +6,7 @@ You don't need to download or edit this file.
 
 h1, h2 {
     text-align: center;
+    color: white;
 }
 
 p {
@@ -110,4 +111,126 @@ neighboring elements.  Necessary to avoid giving ids to the boundary divs
     left: 200px;
     height: 150px;
     width: 98px;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+//color: white;
+}
+
+
+.header{
+    background-color: dodgerblue;
+    text-align: center;
+    height: 80px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: forestgreen;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid grey;
+}
+
+.dropdown-content a:hover {
+    background-color: #4CAF50;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.login{
+    float: right;
+    margin: 5px;
+    height: 30px;
+}
+
+.login a{
+    color: white;
+}
+button{
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 2px;
+    color: white;
+}
+button:hover{
+    background-color: #2196F3;
+}
+
+
+.footer {
+    border-top: green;
+    width:100%;
+    text-align:center;
+    background-color: darkgrey;
+    border-top: 1px solid darkgrey;
+    margin-top: 20px;
+}
+.assigment_list{
+    margin-top: 160px;
+}
+.address {
+    float:left;
+    text-align:left;
+    font-size: 12px;
+
+}
+
+.validator {
+    float:right;
+
 }
