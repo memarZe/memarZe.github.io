@@ -10,11 +10,12 @@ body {
 	margin-bottom: 1em;
 }
 
-h1 {
+h1    {
 	font-size: 200%;
 	font-weight: normal;
 	font-style: italic;
 	font-family: "Impact", fantasy;
+
 }
 
 legend {
