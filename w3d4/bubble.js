@@ -3,7 +3,6 @@ $(function () {
         timer: null
     };
 
-
     function getValue(id) {
         return $("#"+id).val();
     }
@@ -20,7 +19,6 @@ $(function () {
         }
         return color;
     }
-
     function mousemove(event) {
         $(this).css(
             "opacity", function (indx, oldVal) {
@@ -33,7 +31,6 @@ $(function () {
         );
     }
 
-
     function growCircle() {
         let growthAmount = getValue("growthAmount");
 
@@ -41,7 +38,6 @@ $(function () {
             let newVal = (parseInt(oldValue)+parseInt(growthAmount));
             return newVal+"px";
         }
-
 
         function move(idx, oldValue) {
             return parseInt(oldValue)-growthAmount/2+"px";
@@ -54,7 +50,6 @@ $(function () {
         $(".circle").css("border-radius", function(idx, oldValue) {
             return parseInt(oldValue)+growthAmount/2+"px";
         });
-
     }
 
     function getNewCircle() {
