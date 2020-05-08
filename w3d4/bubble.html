@@ -6,7 +6,7 @@ You should download this file for your lab, but you should not edit its contents
 -->
 
 <head>
-    <title>Maze!</title>
+    <title>Clear Screen</title>
 
     <!-- provided files; do not modify -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
@@ -50,37 +50,21 @@ You should download this file for your lab, but you should not edit its contents
 </div>
 <div class="header">
 
-    <h1>Bubble Game</h1>
+    <h1>Clear Screen</h1>
 </div>
-<div class="circle-container">
-    <p>
-        <label for="circleWidth">Width:</label>
-    </p>
-    <p>
-        <input type="number" id="circleWidth" min="20" max="500" value="50">
-    </p>
-    <p>
-        <label for="growthAmount">Growth amount:</label>
-    </p>
-    <p>
-        <input type="number" id="growthAmount" min="1" max="500" value="15">
-    </p>
-    <p>
-        <label for="growRate">Grow Rate:</label>
-    </p>
-    <p>
-        <input type="number" id="growRate" min="50" value="400">
-    </p>
-    <p>
-        <label for="growRate">Number of circles:</label>
-    </p>
-    <p>
-        <input type="number" id="circleCount" min="1" value="20">
-    </p>
-    <p>
-        <button id="start">Start</button>
-    </p>
-
+<div id="control">
+    <p>Width</p>
+    <input id="width" type="number" value="50">
+    <p>Grow Amount:</p>
+    <input id="growAmt" type="number" value="10">
+    <p>Grow Rate:</p>
+    <input id="rate" type="number" value="250">
+    <p>Number of Circle:</p>
+    <input id="numCircle" type="number" value="12"><br><br>
+    <button id="start" type="button" value="Start">Start</button>
+</div>
+<div id="container">
+    <div class="circle"></div>
 </div>
 
 <div class="footer">

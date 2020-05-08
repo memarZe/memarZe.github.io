@@ -158,3 +158,6 @@ input{
     border-radius: 25px;
     opacity: 1;
 }
+#control p{
+    font-family: Arial, Helvetica, sans-serif;
+}
